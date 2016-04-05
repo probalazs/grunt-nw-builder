@@ -5,7 +5,7 @@
     var NwBuilder = require('nw-builder');
 
     function log(message) {
-        _grunt.log.writeln(log);
+        _grunt.log.writeln(message);
     }
 
     function success() {
