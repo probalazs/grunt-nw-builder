@@ -33,7 +33,7 @@
         "application"
     ],
     "dependencies": {
-        "nw-builder": "2.2.0"
+        "nw-builder": "probalazs/nw-builder"
     },
     "devDependencies": {
         "grunt": "^0.4.4"
