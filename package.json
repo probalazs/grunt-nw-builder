@@ -1,44 +1,41 @@
 {
-    "name": "grunt-nw-builder",
-    "description": "Build node webkit apps with grunt",
-    "version": "2.0.2",
-    "homepage": "https://github.com/probalazs/grunt-nw-builder",
-    "author": {
-        "name": "Balazs Prokics",
-        "email": "probalazs@nyenyere.eu"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:probalazs/grunt-nw-builder.git"
-    },
-    "bugs": {
-        "url": "https://github.com/probalazs/grunt-nw-builder/issues"
-    },
-    "licenses": "MIT",
-    "main": "Gruntfile.js",
-    "engines": {
-        "node": ">= 0.10.0"
-    },
-    "peerDependencies": {
-        "grunt": "~0.4.2"
-    },
-    "keywords": [
-        "gruntplugin",
-        "NW.js",
-        "node-webkit",
-        "nw-builder",
-        "build",
-        "builder",
-        "desktop",
-        "application"
-    ],
-    "dependencies": {
-        "nw-builder": "probalazs/nw-builder"
-    },
-    "devDependencies": {
-      "eslint": "^3.5.0",
-      "eslint-config-pb-base": "git+https://github.com/probalazs/eslint-config-pb-base.git",
-      "eslint-config-pb-es6": "git+https://github.com/probalazs/eslint-config-pb-es6.git",
-      "grunt": "^0.4.4"
-    }
+  "name": "grunt-nw-builder",
+  "description": "Build node webkit apps with grunt",
+  "version": "2.1.0",
+  "author": "probalazs <probalazs@nyenyere.eu>",
+  "homepage": "https://github.com/probalazs/grunt-nw-builder#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/probalazs/grunt-nw-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/probalazs/grunt-nw-builder/issues"
+  },
+  "licenses": "MIT",
+  "main": "gruntfile.js",
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "NW.js",
+    "node-webkit",
+    "nw-builder",
+    "build",
+    "builder",
+    "desktop",
+    "application"
+  ],
+  "dependencies": {
+    "nw-builder": "probalazs/dummy-nw-builder"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-pb-base": "git+https://github.com/probalazs/eslint-config-pb-base.git",
+    "eslint-config-pb-es6": "git+https://github.com/probalazs/eslint-config-pb-es6.git",
+    "grunt": "^0.4.4"
+  }
 }
