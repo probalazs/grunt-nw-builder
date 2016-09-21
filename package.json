@@ -36,6 +36,9 @@
         "nw-builder": "probalazs/nw-builder"
     },
     "devDependencies": {
-        "grunt": "^0.4.4"
+      "eslint": "^3.5.0",
+      "eslint-config-pb-base": "git+https://github.com/probalazs/eslint-config-pb-base.git",
+      "eslint-config-pb-es6": "git+https://github.com/probalazs/eslint-config-pb-es6.git",
+      "grunt": "^0.4.4"
     }
 }
