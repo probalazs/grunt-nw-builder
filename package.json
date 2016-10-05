@@ -27,7 +27,7 @@
     "application"
   ],
   "dependencies": {
-    "dummy-nw-builder": "probalazs/dummy-nw-builder"
+    "dummy-nw-builder": "probalazs/dummy-nw-builder#1.1.0"
   },
   "devDependencies": {
     "eslint": "^3.5.0",
